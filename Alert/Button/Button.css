@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .button-container {
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 0.3rem;
+    display: flex;
+    gap: 3rem;
+    height: 150px;
+    justify-content: center;
+    width: 600px;
+    border: 1px solid black;
+  }
+  
+  .primary-button-solid {
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 0.3rem;
+    color: white;
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .primary-button-solid:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(5px);
+  }
+  
+  .primary-button-outline {
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 0.3rem;
+    color: black;
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .primary-button-outline:hover {
+    transform: translateY(5px);
+  }
+  
+  .primary-button-link {
+    background-color: none;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    /* text-decoration: underline; */
+  }
+  
+  .primary-button-icon {
+    background-color: none;
+    border: none;
+    color: black;
+  }
+  
+  .primary-button-icon-text {
+    background-color: white;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    border: 1.5px solid black;
+  }
+  .primary-button-icon-text:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(5px);
+  }
+  
+  .primary-button-float-icon {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: 1.5px solid black;
+  }
+  .primary-button-float-icon:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .divider {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 1px;
+    background-color: #dadadaf3;
+  }
+  
