@@ -21,6 +21,16 @@ body
     overflow: hidden;
     height: 100vh;
 }
+/* .container
+{
+    text-align: center;   
+    border: 1px solid black; 
+    position: relative;
+    min-height: 100vh;
+    height: max-content;
+    margin: auto;
+    width: 80%;
+ } */
 
 .navbar
 {

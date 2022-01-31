@@ -1,44 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #E8EEF2;
     --secondary-color: #0D1B2A;
     --tertiary-color: rgb(117, 117, 117, 0.8);
   }
-  body
+body{
+    font-size: 1rem;
+}  
+/* body
 {
-    font-size: 1em;
+    font-size: 1.1em;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     line-height: 1.6;
- }
-
-.wrapper
+    overflow: hidden;
+    height: 100vh;
+} */
+/* .container
 {
-    display: flex;
-    flex-flow: row wrap;
     text-align: center;   
-    /* border: 1px solid black;  */
+    border: 1px solid black; 
     position: relative;
     min-height: 100vh;
     height: max-content;
     margin: auto;
     width: 80%;
+ } */
+ .logo-img
+ {
+ background-image: url("./images/Paint-Explosion.svg");
+ background-repeat: no-repeat;
+ mix-blend-mode: multiply;
+ width: 60px;
+ height: 60px;
+ background-size: 60px;
+ background-color: transparent;
+ overflow:hidden;
+ margin-left: 1rem;
  }
 
-.wrapper > *
+.navbar
 {
-  padding: 10px;
-  flex: 1 100%;
-  border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
-.header
+li
+{
+    list-style: none;
+    margin-right: 50rem;
+}
+a{
+    text-decoration: none;
+    color:  var(--secondary-color);
+    background-color: var(--primary-color);
+}
+.nav-link
+{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.doc-section
+{
+display: grid;
+grid-template-columns: 300px 1fr 1fr 100px;
+grid-template-rows: 1000px 100px;
+grid-template-areas: "aside content content content"
+                     "footer footer footer footer";                    
+}
+.aside
+{
+    grid-area: aside;
+    background-color: blueviolet;
+    
+}
+.side-bar
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    padding-left: 5rem;
+}
+
+.main-content
+{
+    grid-area: content;
+    background-color: cadetblue;
+    text-align: left;
+    background-color: white;
+    font-size: 24px;
+    position: relative;
+    max-width: 800px;
+}
+
+.footer
+{
+    grid-area: footer;
+    background-color: chocolate;
+}
+.link-active 
+{
+    list-style: none;
+    text-decoration: none;
+}
+
+.title
+{
+    text-decoration: none;
+}
+
+li
+{
+  list-style: none;
+  padding: .5rem;
+ }
+ 
+/* .header
 {
     background: white;
     display: flex;
     justify-content: left;
     position: sticky;    
-}
+} */
 
 .footer
 {
