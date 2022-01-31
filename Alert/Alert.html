@@ -1,64 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-      
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Alert.css">
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="Alert.css">
     <script src="https://use.fontawesome.com/fcb99f5e0a.js"></script>
   </head>
 
   <body>
     <div class="wrapper">
-      <!-- Alert -->
+      <!-- Alerts -->
       <div class="alert-container">
         <div class="alert error">
-          <span class="closebtn">&times;</span>
-          <p>
-            <i class="fa fa-exclamation-circle"></i>Error!This is an Error Alert
-            - Check it now.
-          </p>
+          <i class="fa fa-exclamation-circle"></i>
+          Error!This is an Error Alert - Check it now.
+          <i class="closebtn fa fa-times"></i>
         </div>
-        <!-- Primary Alert -->
         <div class="alert primary">
-          <span class="closebtn">&times;</span>
-          <p>
-            <i class="fa fa-info-circle"></i>Primary!This is a Primary Alert -
-            Check it now.
-          </p>
+          <i class="fa fa-info-circle"></i>Primary!This is a Primary Alert -
+          Check it now.
+          <i class="closebtn fa fa-times"></i>
         </div>
-        <!-- Success Alert -->
         <div class="alert success">
-          <span class="closebtn">&times;</span>
-          <p>
-            <i class="fa fa-check-circle"></i>Success!This is a Success Alert -
-            Check it now.
-          </p>
+          <i class="fa fa-check-circle"></i>Success!This is a Success Alert -
+          Check it now.
+          <i class="closebtn fa fa-times"></i>
         </div>
-        <!-- Warning Alert -->
         <div class="alert warning">
-          <span class="closebtn">&times;</span>
-          <p>
-            <i class="fa fa-exclamation-triangle"></i>Warning!This is a Warning
-            Alert - Check it now.
-          </p>
+          <i class="fa fa-exclamation-triangle"></i>Warning!This is a Warning
+          Alert - Check it now.
+          <i class="closebtn fa fa-times"></i>
         </div>
       </div>
       <!-- Alert with working Closebtn -->
       <div class="alert-container">
         <div class="alert error">
-          <span class="closebtnjs">&times;</span>
-          <p>
             <i class="fa fa-exclamation-circle"></i>Error!This is an Error Alert
             - Check it now.
-          </p>
+            <i class="closebtnjs fa fa-times"></i>
         </div>
-      </div>
     </div>
-    <script src="Alert.js"></script>
+    <script src="./Alert.js"></script>
   </body>
 </html>
