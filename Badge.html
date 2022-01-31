@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="Badge.css">
     <link rel="stylesheet" href="doc.css">
-    <link rel="stylesheet" href="Avatar.css">
+
     <script src="https://use.fontawesome.com/fcb99f5e0a.js"></script>
 </head>
 
@@ -34,7 +39,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_self" href="Badge.html" class="link-active">
+                    <a href="#" class="link-active">
                         <span class="title">BADGE</span>
                     </a>
                 </li>
@@ -97,67 +102,66 @@
         </aside>
         <div class="main-content">
             <article class="main">
-                <h4 class="sub-header">Avatar</h4>
+                <h4 class="sub-header">BADGE</h4>
                 <p class="content-style">
-                    An avatar is a personalized graphical illustration that represents a computer user, or a character
-                    or alter ego that represents that user.
+                    Badges are small circles, positioned either at top-right or bottom-right of the parent component.
+                    Badge can be used to display numbers, online / offline status, depending on where they are used.
                 </p>
                 <div class="divider"></div>
-                <h4 class="sub-header">Profile Avatar</h4>
+                <h4 class="sub-header">Profile Badge</h4>
                 <p class="content-style">
-                    Profile Avatars can be created using the class 'avatar-img', inside the img tag.
+                    Profile Badge is used to show the current status of a user.
                 </p>
-                <p class="content-style">For different sizes of avatar, include avatar-small, avatar-medium and
-                    avatar-large along with the
-                    avatar-img class for small(1.5rem), medium(4rem) and large(5rem) image respectively.
+                <p class="content-style">
+                    It can be used with 3 variants : status-style-online | status-style-offline | status-style-dnd
                 </p>
-                <div class="divider"></div>
-                <div class="wrapper">
-                    <div class="avatar-container">
+                <div class="avatar-container">
+                    <div class="icon">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHlZl1MOLw2JluEM12aTJmxVg2vHBS0ICvQ&usqp=CAU"
                             alt="Image" class="avatar-img avatar-small"></img>
-                        <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Image" class="avatar-img"></img>
+                        <span class="status-style-online"></span>
+                    </div>
+                    <div class="icon">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWdJPp4NxjyXvdabKjU2daJ16d0iHjhDq_-Q&usqp=CAU"
                             alt="Image" class="avatar-img avatar-medium"></img>
+                        <span class="status-style-offline"></span>
+                    </div>
+                    <div class="icon">
                         <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Image"
                             class="avatar-img avatar-large"></img>
+                        <span class="status-style-dnd"></span>
                     </div>
                 </div>
                 <div class="divider"></div>
-                <div class="example-code">
-                    <iframe
-                    src="https://carbon.now.sh/embed/t41oXeFg6BTi4CEJzZKm"
-                    style="width: 801px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe src="https://carbon.now.sh/embed/t41oXeFg6BTi4CEJzZKm"
+                    style="width: 835px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                </div>
-                <h4 class="sub-header">Square Avatar</h4>
+                </iframe>
+                <div class="divider"></div>
+                <h4 class="sub-header">Badge On Icon</h4>
                 <p class="content-style">
-                    Adding a class 'avatar-square' to existing class, will generate a square shaped avatar. And for
-                    different sizes, add the class accordingly.
+                    Number Badges are mostly used to show the no. of items present in the parent component.
                 </p>
+                <div class="avatar-container">   
+                    <div class="icon">
+                      <span class="material-icons">email</span>
+                      <span class="style-badge style-badge1">4</span>
+                    </div>
+                    <div class="icon">
+                      <span class="material-icons">notifications</span>
+                      <span class="style-badge style-badge2">15</span>
+                    </div>
+                    <div class="icon text">
+                      <span>Text with a badge</span>
+                      <span class="style-badge style-badge3">5</span>
+                    </div>
+                    <div class="icon">
+                      <button class="btn-style">Action</button>
+                      <span class="style-badge style-badge4">8</span>
+                    </div>
+                  </div>
                 <div class="divider"></div>
-                <div class="avatar-container">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHlZl1MOLw2JluEM12aTJmxVg2vHBS0ICvQ&usqp=CAU"
-                        alt="Image" class="avatar-img avatar-small avatar-square"></img>
-                    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Image"
-                        class="avatar-img avatar-square"></img>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWdJPp4NxjyXvdabKjU2daJ16d0iHjhDq_-Q&usqp=CAU"
-                        alt="Image" class="avatar-img avatar-medium avatar-square"></img>
-                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Image"
-                        class="avatar-img avatar-large avatar-square"></img>
-                </div>
-                <div class="divider"></div>
-                <iframe
-                src="https://carbon.now.sh/embed/t41oXeFg6BTi4CEJzZKm"
-                style="width: 793px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-                <div class="divider"></div>
-        </div>
-
-
-
+                
 
         </article>
 
