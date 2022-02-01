@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
 *
+body 
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
 {
     margin: 0;
     padding: 0;

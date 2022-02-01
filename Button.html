@@ -2,18 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
-    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet"
-  />
-    <link rel="stylesheet" href="Badge.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="doc.css">
-
+    <link rel="stylesheet" href="Button.css" />
     <script src="https://use.fontawesome.com/fcb99f5e0a.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
@@ -39,7 +35,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="Badge.html" class="link-active">
+                    <a target="_self" href="Badge.html" class="link-active">
                         <span class="title">BADGE</span>
                     </a>
                 </li>
@@ -102,73 +98,70 @@
         </aside>
         <div class="main-content">
             <article class="main">
-                <h4 class="sub-header">BADGE</h4>
+                <h4 class="sub-header">Button</h4>
                 <p class="content-style">
-                    Badges are small circles, positioned either at top-right or bottom-right of the parent component.
-                    Badge can be used to display numbers, online / offline status, depending on where they are used.
+                    Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and
+                    make choices, with a single tap.
                 </p>
                 <div class="divider"></div>
-                <h4 class="sub-header">Profile Badge</h4>
+                <h4 class="sub-header">Types of Button</h4>
                 <p class="content-style">
-                    Profile Badge is used to show the current status of a user.
+                    Buttons could be Primary, Secondary, Link Buttons depending on the requirement. It can be created
+                    using .primary-button-solid, .primary-button-outline & .primary-button-link respectively.
                 </p>
+                <div class="divider"></div>
+                <div class="wrapper">
+                    <!-- Primary Outline Link Button-->
+                    <div class="button-container">
+                        <button class="primary-button-solid">PRIMARY-SOLID</button>
+                        <button class="primary-button-outline">PRIMARY-OUTLINE</button>
+                        <button class="primary-button-link">PRIMARY-TEXT</button>
+                    </div>
+                </div>    
+                    <!-- Button with Icons-->
+                <div class="divider"></div>
+                <h4 class="sub-header">Buttons with Icon and Text</h4>
                 <p class="content-style">
-                    It can be used with 3 variants : status-style-online | status-style-offline | status-style-dnd
+                    Sometimes you need a button with an icon and label. You can get by adding class "primary-button-icon-text"
+                    Button with just as an Icon is also available and can be added by using 
+                    "primary-button-icon".
                 </p>
-                <div class="avatar-container">
-                    <div class="icon">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHlZl1MOLw2JluEM12aTJmxVg2vHBS0ICvQ&usqp=CAU"
-                            alt="Image" class="avatar-img avatar-small"></img>
-                        <span class="status-style-online"></span>
+                <div class="divider"></div>
+               
+                <div class="wrapper">
+                    <div class="button-container">
+                        <button class="primary-button-icon">
+                            <span class="material-icons"> shopping_bag</span>
+                        </button>
+                        <button class="primary-button-icon-text">
+                            <span class="material-icons"> shopping_bag</span>ADD TO BAG
+                        </button>
                     </div>
-                    <div class="icon">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWdJPp4NxjyXvdabKjU2daJ16d0iHjhDq_-Q&usqp=CAU"
-                            alt="Image" class="avatar-img avatar-medium"></img>
-                        <span class="status-style-offline"></span>
+                </div>    
+                <div class="divider"></div>
+                <h4 class="sub-header">Floating Action Buttons</h4>
+                <p class="content-style">
+                    A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center.
+                </p>
+                <div class="divider"></div>
+                    <!-- Floating Action Button-->
+                <div class="wrapper">  
+                    <div class="button-container">
+                        <button class="primary-button-float-icon">
+                            <span class="material-icons">my_location</span>
+                        </button>
+                        <button class="primary-button-float-icon">
+                            <span class="material-icons">
+                                photo_camera
+                            </span>
+                        </button>
                     </div>
-                    <div class="icon">
-                        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Image"
-                            class="avatar-img avatar-large"></img>
-                        <span class="status-style-dnd"></span>
-                    </div>
+                </div>    
+                    <script src="Alert.js"></script>
+                    <div class="divider"></div>
+                    </article>
                 </div>
                 <div class="divider"></div>
-                <iframe src="https://carbon.now.sh/embed/t41oXeFg6BTi4CEJzZKm"
-                    style="width: 835px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <div class="divider"></div>
-                <h4 class="sub-header">Badge On Icon</h4>
-                <p class="content-style">
-                    Number Badges are mostly used to show the no. of items present in the parent component.
-                </p>
-                <div class="avatar-container">   
-                    <div class="icon">
-                      <span class="material-icons">email</span>
-                      <span class="style-badge style-badge1">4</span>
-                    </div>
-                    <div class="icon">
-                      <span class="material-icons">notifications</span>
-                      <span class="style-badge style-badge2">15</span>
-                    </div>
-                    <div class="icon text">
-                      <span>Text with a badge</span>
-                      <span class="style-badge style-badge3">5</span>
-                    </div>
-                    <div class="icon">
-                      <button class="btn-style">Action</button>
-                      <span class="style-badge style-badge4">8</span>
-                    </div>
-                  </div>
-                <div class="divider"></div>
-                
-
-        </article>
-
-    </div>
-    <div class="divider"></div>
-    <div class="footer">footer</div>
-    </div>
-</body>
-
-</html>
+                <div class="footer">footer</div>
+                </div>
+            </body> -->
