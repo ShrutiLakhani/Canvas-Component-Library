@@ -222,5 +222,10 @@ li
 {
     height: max-content;
     margin-bottom: 3rem;
-    padding-right: 1px;
+    padding-right: 10px;
+    width: 50rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    background-color: #f0f0f0;
+    text-align: center;
 }
