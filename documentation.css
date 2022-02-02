@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
+:root {
+    --primary-color: #E8EEF2;
+    --secondary-color: #0D1B2A;
+    --tertiary-color: rgb(117, 117, 117, 0.8);
+  }
+  body
+{
+    font-size: 1em;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    line-height: 1.6;
+ }
+
+.wrapper
+{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;   
+    /* border: 1px solid black;  */
+    position: relative;
+    min-height: 100vh;
+    height: max-content;
+    margin: auto;
+    width: 80%;
+ }
+
+.wrapper > *
+{
+  padding: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header
+{
+    background: white;
+    display: flex;
+    justify-content: left;
+    position: sticky;    
+}
+
+.footer
+{
+    background: lightgreen;
+    height: 80px;
+}
+.main
+{
+    text-align: left;
+    background-color: white;
+    font-size: 24px;
+    position: relative;
+    max-width: 800px;
+}
+
+.aside1
+{
+    background-color: white;
+    text-align: center;
+    position: sticky;   
+}
+
+@media all and (min-width: 800px)
+{
+    .main{
+        flex: 3;
+    }
+    .aside1{
+        order: 1;
+    }
+    .main{
+        order: 2;
+    }
+    .footer{
+        order: 3;
+    }
+}
+
+
+@media all and (min-width: 600px)
+{
+    .aside1{
+        flex: 1;
+    }
+}
+
+.header__nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: darkgray;
+    position: sticky;
+    gap: 3rem;  
+  }
+  
+  .header__nav li {
+    display: inline-block;
+    color: darkgray;
+    
+      }
+  .header__nav a {
+    padding: 8px;
+    color: darkgray;
+    text-decoration: none;
+  }
+  .sub-header
+  {
+      text-align: left;
+  }
+
+  .link-active 
+  {
+      list-style: none;
+      text-decoration: none;
+  }
+
+  .title
+  {
+      text-decoration: none;
+  }
+
+  li
+  {
+    list-style: none;
+    padding: 1rem;
+  }
+  .content-style
+  {
+      font-size: 1.2rem;
+  }
+
+  .divider
+  {
+      margin-bottom: 2rem;
+      width: 130px;
+      height: 1px;
+      background-color: #dadadaf3;
+  }
+
+  .h1js
+  {
+        display: block;
+        background-color: #f0f0f0;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        width: 800px;
+        overflow-x: auto;
+  }

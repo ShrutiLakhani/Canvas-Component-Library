@@ -17,19 +17,18 @@ body
     --secondary-color: #0D1B2A;
     --tertiary-color: rgb(117, 117, 117, 0.8);
 }
- .logo-img
- {
- background-image: url("./images/Paint-Explosion.svg");
- background-repeat: no-repeat;
- mix-blend-mode: multiply;
- width: 60px;
- height: 60px;
- background-size: 60px;
- background-color: transparent;
- overflow:hidden;
- margin-left: 1rem;
- }
-
+.logo-img
+{
+background-image: url("./images/Paint-Explosion.svg");
+background-repeat: no-repeat;
+mix-blend-mode: multiply;
+width: 3.75rem;
+height: 3.75rem;
+background-size: 3.75rem;
+background-color: transparent;
+overflow:hidden;
+margin-left: 1rem;
+}
 .navbar
 {
     display: flex;
@@ -38,7 +37,6 @@ body
     padding: 1rem;
     margin-bottom: 2rem;
 }
-
 li
 {
     list-style: none;
@@ -49,12 +47,6 @@ a{
     color:  var(--secondary-color);
     background-color: var(--primary-color);
 }
-.nav-link
-{
-    text-align: center;
-    padding-top: 5px;
-}
-
 .doc-section
 {
 display: grid;
@@ -66,8 +58,6 @@ grid-template-areas: "aside content content content"
 .aside
 {
     grid-area: aside;
-    background-color: blueviolet;
-    
 }
 .side-bar
 {
@@ -75,71 +65,38 @@ grid-template-areas: "aside content content content"
     flex-direction: column;
     gap: 1.2rem;
     justify-content: center;
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
-
 .main-content
 {
     grid-area: content;
-    background-color: cadetblue;
     text-align: left;
-    background-color: white;
-    font-size: 24px;
+    background-color: var(--primary-color);
     position: relative;
-    max-width: 800px;
+    max-width: 50rem;
 }
-/* 
-.footer
-{
-    grid-area: footer;
-    background-color: chocolate;
-} */
-.link-active 
+/* .link-active 
 {
     list-style: none;
     text-decoration: none;
-}
-
+} */
 .title
 {
     text-decoration: none;
 }
-
-li
-{
-  list-style: none;
-  padding: .5rem;
- }
- 
-/* .header
-{
-    background: white;
-    display: flex;
-    justify-content: left;
-    position: sticky;    
-} */
-/* 
-.footer
-{
-    background: lightgreen;
-    height: 80px;
-} */
 .main
 {
     text-align: left;
     background-color: white;
-    font-size: 24px;
     position: relative;
-    max-width: 800px;
+    max-width: 50rem;
 }
-
 .aside1
 {
     background-color: white;
     text-align: center;
     position: sticky;   
 }
-
 @media all and (min-width: 800px)
 {
     .main{
@@ -155,16 +112,14 @@ li
         order: 3;
     }
 }
-
-
 @media all and (min-width: 600px)
 {
     .aside1{
         flex: 1;
     }
 }
-
-.header__nav {
+.header__nav 
+{
     margin-left: auto;
     display: flex;
     align-items: center;
@@ -172,56 +127,52 @@ li
     color: darkgray;
     position: sticky;
     gap: 3rem;  
-  }
-  
-  .header__nav li {
+}
+.header__nav li 
+{
     display: inline-block;
     color: darkgray;
     
-      }
-  .header__nav a {
+}
+.header__nav a 
+{
     padding: 8px;
     color: darkgray;
     text-decoration: none;
-  }
-  .sub-header
-  {
-      text-align: left;
-  }
-
-  .link-active 
-  {
-      list-style: none;
-      text-decoration: none;
-  }
-
-  .title
-  {
-      text-decoration: none;
-  }
-
-  li
-  {
+}
+.sub-header
+{
+    text-align: left;
+}
+.link-active 
+{
     list-style: none;
-    padding: 1rem;
-  }
-  .content-style
-  {
-      font-size: 1rem;
-      padding-bottom: .5rem;
-      margin: .5rem;
-  }
-
-  .divider
-  {
-      margin-bottom: 2rem;
-      height: 1px;
-      background-color: #dadadaf3;
-  }
+   text-decoration: none;
+}
+.title
+{
+  text-decoration: none;
+}
+li
+{
+  list-style: none;
+  padding: 1rem;
+}
+.content-style
+{
+  padding-bottom: .5rem;
+  margin: .5rem;
+}
+.divider
+{
+  margin-bottom: 2rem;
+  height: 1px;
+  background-color: #dadadaf3;
+}
 .example-code
 {
-    height: max-content;
-    margin-bottom: 3rem;
+ height: max-content;
+ margin-bottom: 3rem;
     padding-right: 10px;
     width: 50rem;
     border: 1px solid black;
