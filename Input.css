@@ -3,14 +3,6 @@
   --error-color: rgb(231, 97, 97);
   --success-color: rgb(74, 168, 74);
 }
-.wrapper 
-{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-  
   .input-container 
   {
     align-items: center;

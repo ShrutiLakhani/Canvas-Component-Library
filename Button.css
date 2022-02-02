@@ -1,11 +1,7 @@
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  .button-icon
+  {
+   font-size: 2rem; 
   }
-  
   .button-container {
     align-items: center;
     background-color: #f0f0f0;

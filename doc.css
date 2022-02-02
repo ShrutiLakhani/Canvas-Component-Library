@@ -17,6 +17,14 @@ body
     --secondary-color: #0D1B2A;
     --tertiary-color: rgb(117, 117, 117, 0.8);
 }
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 .logo-img
 {
 background-image: url("./images/Paint-Explosion.svg");
