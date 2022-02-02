@@ -59,9 +59,9 @@ a{
 {
 display: grid;
 grid-template-columns: 30% 1fr 1fr 10%;
-grid-template-rows: 90% 10%;
+grid-template-rows: 1fr;
 grid-template-areas: "aside content content content"
-                     "footer footer footer footer";                    
+                     "aside content content content";                    
 }
 .aside
 {
@@ -88,12 +88,12 @@ grid-template-areas: "aside content content content"
     position: relative;
     max-width: 800px;
 }
-
+/* 
 .footer
 {
     grid-area: footer;
     background-color: chocolate;
-}
+} */
 .link-active 
 {
     list-style: none;
@@ -118,12 +118,12 @@ li
     justify-content: left;
     position: sticky;    
 } */
-
+/* 
 .footer
 {
     background: lightgreen;
     height: 80px;
-}
+} */
 .main
 {
     text-align: left;
@@ -228,4 +228,5 @@ li
     border-radius: 0.3rem;
     background-color: #f0f0f0;
     text-align: center;
+    overflow-x: scroll;
 }
