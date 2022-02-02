@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="doc.css">
+    <link rel="stylesheet" href="Input.css" />
+    <script src="https://use.fontawesome.com/fcb99f5e0a.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-img"></div>
+        <li class="nav-link">
+            <h2><a href="index.html">Canvas</a></h2>
+        </li>
+    </div>
+    </div>
+    <div class="doc-section">
+        <aside class="aside-style">
+
+            <div class="side-bar">
+                <li>
+                    <a target="_self" href="getstarted.html" class="link-active">
+                        <span class="title">GET STARTED</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="Alert.html" class="link-active">
+                        <span class="title">ALERT</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="Avatar.html" class="link-active">
+                        <span class="title">AVATAR</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="Badge.html" class="link-active">
+                        <span class="title">BADGE</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a target="_self" href="Button.html" class="link-active">
+                        <span class="title">BUTTON</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="Card.html" class="link-active">
+                        <span class="title">CARD</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="Image.html" class="link-active">
+                        <span class="title">IMAGE</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="Input.html" class="link-active">
+                        <span class="title">INPUT</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="#" class="link-active">
+                        <span class="title">LIST</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="#" class="link-active">
+                        <span class="title">MODAL</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="#" class="link-active">
+                        <span class="title">NAVIGATION</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="#" class="link-active">
+                        <span class="title">TEXT UTILS</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="#" class="link-active">
+                        <span class="title">TOAST</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_self" href="#" class="link-active">
+                        <span class="title">BANNERS</span>
+                    </a>
+                </li>
+            </div>
+        </aside>
+        <div class="main-content">
+            <article class="main">
+                <h4 class="sub-header">Input</h4>
+                <p class="content-style">
+                    Inputs are necessary for user interaction with the website. Inputs are used to take information from
+                    the user, and then save the data to the server, accordingly.
+                </p>
+                <div class="divider"></div>
+                <h4 class="sub-header">Label Inputs</h4>
+                <p class="content-style">
+                    Label Input has a label present at the top of the input field. They can be customized to show error
+                    error-message, and change color accordingly.
+                </p>
+                <div class="divider"></div>
+                <!--Input Container-->
+                <div class="wrapper">
+                    <div class="input-container">
+                        <div class="label-input">
+                            <label>Username*</label>
+                            <input class="input-text" type="text">
+                            </input>
+                        </div>
+                        <!--Input Container with Error Message-->
+                        <div class="label-input-error">
+                            <label>Password*</label>
+                            <input class="input-error" type="text">
+                            </input>
+                            <div class="error-message">Wrong Password. Try again.
+                            </div>
+                        </div>
+                        <!--Input Container with Success Message-->
+                        <div class="label-input-success">
+                            <label>Password*</label>
+                            <input class="input-success" type="text">
+                            </input>
+                            <div class="success-message">Correct Password.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="example-code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28240%2C240%2C240%2C1%29&t=seti&wt=none&l=auto&width=999.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=24px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253C%21--Input%2520Container--%253E%250A%2520%2520%2520%2520%2520%2509%2520%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2520%2520%253Cdiv%2520class%253D%2522label-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EUsername*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-text%2522%2520type%253D%2522text%2522%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Input%2520Container%2520with%2520Error%2520Message--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522label-input-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-error%2522%2520type%253D%2522text%2522%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253EWrong%2520Password.%2520Try%2520again.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Input%2520Container%2520with%2520Success%2520Message--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522label-input-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-success%2522%2520type%253D%2522text%2522%253E%253C%252Finput%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-message%2522%253ECorrect%2520Password.%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520"
+                        style="width: 999px; height: 497px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="divider"></div>
+            </article>
+        </div>
+    </div>
+</body> -->

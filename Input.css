@@ -1,0 +1,65 @@
+:root
+{
+  --error-color: rgb(231, 97, 97);
+  --success-color: rgb(74, 168, 74);
+}
+.wrapper 
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  .input-container 
+  {
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    justify-content: center;
+    padding: 2rem;
+    width: 50rem;
+  }
+  .input-text 
+  {
+    padding: 0.5rem 3rem;
+    border: 1.5px solid black;
+  }
+  
+  .input-error 
+  {
+    padding: 0.5rem 3rem;
+    border: 1.5px solid red;
+    color: var(--error-color);
+  }
+  .label-input-error 
+  {
+    padding-left: 11rem; 
+    color: var(--error-color);
+  }
+  .error-message 
+  {
+    padding: 0.5rem 8rem;
+    color: var(--error-color);
+  }
+  
+  .input-success 
+  {
+    padding: 0.5rem 3rem;
+    border: 1.5px solid rgb(60, 170, 60);
+    color: var(--success-color);
+  }
+  .label-input-success 
+  {
+    padding-left: 4rem;   
+    color: var(--success-color);
+  }
+  .success-message 
+  {
+    padding: 0.5rem 8rem;
+    color: var(--success-color);
+  }
