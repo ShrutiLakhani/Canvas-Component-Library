@@ -1,19 +1,23 @@
-body {
+body 
+{
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
-  }
-  body {
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-  }
-  .wrapper {
+}
+:root
+{
+  --error-color: rgb(231, 97, 97);
+  --success-color: rgb(74, 168, 74);
+}
+.wrapper 
+{
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
   
-  .input-container {
+  .input-container 
+  {
     align-items: center;
     background-color: #f0f0f0;
     border-radius: 0.3rem;
@@ -25,34 +29,41 @@ body {
     padding: 2rem;
     width: 600px;
   }
-  .input-text {
+  .input-text 
+  {
     padding: 0.5rem 3rem;
     border: 1.5px solid black;
   }
   
-  .input-error {
+  .input-error 
+  {
     padding: 0.5rem 3rem;
     border: 1.5px solid red;
-    color: red;
+    color: var(--error-color);
   }
-  .label-input-error {
-    color: red;
+  .label-input-error 
+  {
+    color: var(--error-color);
   }
-  .error-message {
+  .error-message 
+  {
     padding: 0.5rem 4rem;
-    color: red;
+    color: var(--error-color);
   }
   
-  .input-success {
+  .input-success 
+  {
     padding: 0.5rem 3rem;
     border: 1.5px solid rgb(60, 170, 60);
-    color: rgb(60, 170, 60);
+    color: var(--success-color);
   }
-  .label-input-success {
-    color: rgb(60, 170, 60);
+  .label-input-success 
+  {
+    color: var(--success-color);
   }
-  .success-message {
+  .success-message 
+  {
     padding: 0.5rem 4rem;
-    color: rgb(60, 170, 60);
+    color: var(--success-color);
   }
   
