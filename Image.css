@@ -1,0 +1,30 @@
+.image-container 
+{
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+    gap: 1rem;
+    justify-content: center;
+    margin: .5rem;
+    padding: 2rem;
+    width: 50rem;
+}
+/* responsive image */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* rounded image */
+  .rounded-img {
+    border-radius: 50%;
+  }
+  
+  .rounded-corner {
+    border-radius: 10%;
+  }
+  
