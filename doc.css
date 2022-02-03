@@ -28,6 +28,13 @@ body
     --component-container-color:  #f0f0f0;
     --component-white-color: white;
     --component-black-color: black;
+    --card-BG: rgb(255, 255, 255);
+    --text-card-primary-color: rgb(238, 27, 36);
+    --secondary-card-color: rgb(117, 117, 117);
+    --tertiary-card-color: rgb(117, 117, 117, 0.8);
+    --hover-card-color: rgba(238, 27, 36, 0.2);
+    --bg-card-button-color1: rgb(206, 206, 182);
+    --bg-card-button-color2: rgb(66, 27, 27);
 
 }
 .wrapper
@@ -198,7 +205,7 @@ li
     width: 50rem;
     /* border: 1px solid black; */
     border-radius: 0.3rem;
-    background-color: #f0f0f0;
+    background-color: var(--component-white-color);
     text-align: center;
     overflow-x: scroll;
 }
@@ -206,5 +213,5 @@ li
 {
     border-width: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: var(--component-black-color);
 }

@@ -1,0 +1,40 @@
+.palette
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    vertical-align: middle;
+    font-size: .8rem;
+}
+.color{
+    width: 6rem;
+    height: 6rem;
+}
+.main-background-color
+{
+    background-color: #FBFFFE;
+}
+.secondary-color
+{
+    background-color: #0D1B2A;
+    color: var(--component-white-color);
+}
+.error-color
+{
+    background-color: var(--error-color);
+}
+.success-color
+{
+    background-color: var(--success-color);
+}
+
+.primary-blue-color
+{
+    background-color: var(--primary-alert-color);
+}
+
+.warning-color
+{
+    background-color: var(--warning-color);
+}
