@@ -14,7 +14,7 @@
   height: 2rem;
   border-radius: 50%;
   text-align: center;
-  color: white;
+  color: var(--component-white-color);
   font-size: 1rem;
   font-weight: bold;
   justify-content: center;
@@ -24,27 +24,27 @@
 {
   top: 0%;
   left: 5rem;
-  background-color: rgb(113, 83, 196);
+  background-color: var(--primary-blue-color);
 }
 .style-badge2
 {
   top: 5%;
   left: 4rem;
-  background-color: rgb(240, 61, 61);
+  background-color: var(--error-color);
 }
 
 .style-badge3
 {
   top: 10%;
   left: 9.5rem;
-  background-color: blue;
+  background-color: var(--primary-blue-color);
 }
 
 .style-badge4
 {
   top: 1rem;
   left: 5.5rem;
-  background-color: rgb(199, 69, 112);
+  background-color: var(--error-color);
 }
 
 .btn-style
@@ -52,8 +52,8 @@
   padding: 0.5rem 0.8rem;
   border-radius: 10%;
   margin: 2rem;
-  background-color: blue;
-  color: white;
+  background-color: var(--primary-blue-color);
+  color: var(--component-white-color);
   font-weight: bold;
 }
 
@@ -62,8 +62,8 @@
   padding: 0.5rem 0.8rem;
   border-radius: 10%;
   margin: 2rem;
-  background-color: white;
-  color: black;
+  background-color: var(--component-white-color);
+  color: var(--component-black-color);
   font-weight: bold;
 }
 
@@ -78,7 +78,7 @@
   width: .8rem;
   height: .8rem;
   border-radius: 50%;
-  background-color: green;
+  background-color: var(--success-color);
   border: 1.5px solid white;
   bottom: 0%;
   left: 1rem;
@@ -103,6 +103,6 @@
   border-radius: 50%;
   bottom: 0%;
   left: 3.5rem;
-  background-color: rgb(194, 34, 34);
+  background-color: var(--error-color);
   border: 1.5px solid white;
 }

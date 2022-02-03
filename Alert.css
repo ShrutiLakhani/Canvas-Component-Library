@@ -1,7 +1,7 @@
 .alert-container 
 {
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: var(--component-container-color);
     border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 .alert 
 {
     border-radius: 0.3rem;
-    color: white;
+    color: var(--component-white-color);
     display: flex;
     overflow-x: auto;
     padding: 1rem 0.5rem;
@@ -27,7 +27,7 @@
 }
   .closebtn
 {
-    color: white;
+    color: var(--component-white-color);
     cursor: pointer;
     line-height: 0.5rem;
     padding-top: 0.8rem;
@@ -40,7 +40,7 @@
   
   .closebtnjs
 {
-    color: white;
+    color: var(--component-white-color);
     cursor: pointer;
     line-height: 0.5rem;
     padding-top: 0.8rem;
@@ -53,29 +53,29 @@
   
   .closebtnjs:hover
 {
-    color: black;
+    color: var(--component-black-color);
 }
   .closebtn:hover
 {
-    color: black;
+    color: var(--component-black-color);
 }
   
   .error 
 {
-    background-color: rgb(243, 53, 53,.8);
+    background-color: var(--error-color);
 }
   
   .primary
 {
-    background-color: rgb(66, 66, 221,.8);
+    background-color: var(--primary-alert-color);
 }
   
   .success 
 {
-    background-color: rgb(69, 136, 69,.8);
+    background-color: var(--success-color);
 }
   
   .warning
 {
-    background-color: rgb(243, 156, 105,.8);
+    background-color: var(--warning-color);
 }

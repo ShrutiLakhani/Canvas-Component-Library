@@ -1,14 +1,14 @@
-:root
+/* :root
 {
   --error-color: rgb(231, 97, 97);
   --success-color: rgb(74, 168, 74);
-}
+} */
   .input-container 
   {
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: var(--component-container-color);
     border-radius: 0.3rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -19,39 +19,39 @@
   .input-text 
   {
     padding: 0.5rem 3rem;
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
   }
   
   .input-error 
   {
     padding: 0.5rem 3rem;
-    border: 1.5px solid red;
+    border: 1.5px solid var(--error-color);
     color: var(--error-color);
   }
   .label-input-error 
   {
-    padding-left: 11rem; 
+    padding-left: .2rem; 
     color: var(--error-color);
   }
   .error-message 
   {
-    padding: 0.5rem 8rem;
+    padding: 0.5rem 5rem;
     color: var(--error-color);
   }
   
   .input-success 
   {
     padding: 0.5rem 3rem;
-    border: 1.5px solid rgb(60, 170, 60);
+    border: 1.5px solid var(--success-color);
     color: var(--success-color);
   }
   .label-input-success 
   {
-    padding-left: 4rem;   
+    padding-left: .2rem;   
     color: var(--success-color);
   }
   .success-message 
   {
-    padding: 0.5rem 8rem;
+    padding: 0.5rem 5rem;
     color: var(--success-color);
   }

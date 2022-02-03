@@ -4,35 +4,35 @@
   }
   .button-container {
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: var(--component-container-color);
     border-radius: 0.3rem;
     display: flex;
     gap: 3rem;
     height: 10rem;
     justify-content: center;
     width: 50rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   
   .primary-button-solid {
-    background-color: black;
-    border: 1.5px solid black;
+    background-color: var(--component-black-color);
+    /* border: 1.5px solid black; */
     border-radius: 0.3rem;
-    color: white;
+    color: var(--component-white-color);
     padding: 0.8rem 1.5rem;
   }
   
   .primary-button-solid:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--component-white-color);
+    color: var(--component-black-color);
     transform: translateY(5px);
   }
   
   .primary-button-outline {
-    background-color: white;
-    border: 1.5px solid black;
+    background-color: var(--component-white-color);
+    /* border: 1.5px solid black; */
     border-radius: 0.3rem;
-    color: black;
+    color: var(--component-black-color);
     padding: 0.8rem 1.5rem;
   }
   
@@ -43,54 +43,54 @@
   .primary-button-link {
     background-color: none;
     border: none;
-    color: black;
+    color: var(--component-black-color);
     font-size: 1rem;
-    /* text-decoration: underline; */
+    text-decoration: underline;
   }
   .primary-button-link:hover
   {
-    color: rgb(93, 93, 233);
-    text-decoration: underline;
+    color: var(--primary-blue-color);
+    /* text-decoration: underline; */
   }
   
   .primary-button-icon {
     background-color: none;
     border: none;
-    color: black;
+    color: var(--component-black-color);
   }
   
   .primary-button-icon-text {
     display: flex;
-    background-color: white;
-    color: black;
-    padding: 0.8rem 1.5rem;
+    background-color: var(--component-white-color);
+    color: var(--component-black-color);
+    padding: 0.8rem 1.7rem;
     border-radius: 0.3rem;
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     align-items: center;
   }
   .primary-button-icon-text:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--component-black-color);
+    color: var(--component-white-color);
     transform: translateY(5px);
   }
   
   .primary-button-float-icon {
-    background-color: white;
-    color: black;
+    background-color: var(--component-white-color);
+    color: var(--component-black-color);
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
   }
   .primary-button-float-icon:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--component-black-color);
+    color: var(--component-white-color);
   }
-  
+/*   
   .divider {
     margin-top: 1rem;
     margin-bottom: 2rem;
     width: 100%;
     height: 1px;
     background-color: #dadadaf3;
-  }
+  } */

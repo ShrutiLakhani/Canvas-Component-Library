@@ -4,6 +4,7 @@ body
 {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
+    background-color: var(--main-bg-color);
 }
 *
 {
@@ -12,10 +13,22 @@ body
     box-sizing: border-box;
 }
 :root 
-{    
+{   
+    --main-bg-color: #FBFFFE; 
+    /* --border-color: black; */
     --primary-color: #E8EEF2;
     --secondary-color: #0D1B2A;
+    --divider-bg-color: #dadadaf3;
     --tertiary-color: rgb(117, 117, 117, 0.8);
+    --error-color: rgb(243, 53, 53,.8);
+    --success-color: rgb(69, 136, 69,.8);
+    --primary-alert-color:  rgb(66, 66, 221,.8);
+    --primary-blue-color:  rgb(66, 66, 221);
+    --warning-color: rgb(243, 156, 105,.8);
+    --component-container-color:  #f0f0f0;
+    --component-white-color: white;
+    --component-black-color: black;
+
 }
 .wrapper
 {
@@ -53,7 +66,7 @@ li
 a{
     text-decoration: none;
     color:  var(--secondary-color);
-    background-color: var(--primary-color);
+    /* background-color: var(--main-bg-color); */
 }
 .doc-section
 {
@@ -79,7 +92,7 @@ grid-template-areas: "aside content content content"
 {
     grid-area: content;
     text-align: left;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     position: relative;
     max-width: 50rem;
 }
@@ -95,13 +108,13 @@ grid-template-areas: "aside content content content"
 .main
 {
     text-align: left;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
     max-width: 50rem;
 }
 .aside1
 {
-    background-color: white;
+    /* background-color: white; */
     text-align: center;
     position: sticky;   
 }
@@ -132,11 +145,11 @@ grid-template-areas: "aside content content content"
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    color: darkgray;
+    /* color: darkgray; */
     position: sticky;
     gap: 3rem;  
 }
-.header__nav li 
+/* .header__nav li 
 {
     display: inline-block;
     color: darkgray;
@@ -147,7 +160,7 @@ grid-template-areas: "aside content content content"
     padding: 8px;
     color: darkgray;
     text-decoration: none;
-}
+} */
 .sub-header
 {
     text-align: left;
@@ -175,17 +188,23 @@ li
 {
   margin-bottom: 2rem;
   height: 1px;
-  background-color: #dadadaf3;
+  background-color: var(--divider-bg-color);
 }
 .example-code
 {
- height: max-content;
- margin-bottom: 3rem;
+    height: max-content;
+    margin-bottom: 3rem;
     padding-right: 10px;
     width: 50rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 0.3rem;
     background-color: #f0f0f0;
     text-align: center;
     overflow-x: scroll;
+}
+.border-style
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
 }

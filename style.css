@@ -7,6 +7,8 @@
 }
 :root 
 {
+    --main-bg-color: #FBFFFE;
+    --divider-bg-color: #dadadaf3;
     --primary-color: #E8EEF2;
     --secondary-color: #0D1B2A;
     --tertiary-color: rgb(117, 117, 117, 0.8);
@@ -65,7 +67,7 @@ h2
 }
 .nav-link:first-of-type
 {
-    color:  #0D1B2A;
+    color: var(--secondary-color);
     transition: transform .3s;
     cursor: pointer;
     transform: translateY(5px);
@@ -104,7 +106,7 @@ h2
     margin-left: 0px;
     margin-top: -10px;
     width: 130px;
-    background-color: #dadadaf3;
+    background-color: (--divider-bg-color);
 }
 .logo-img
 {
