@@ -177,6 +177,13 @@ grid-template-areas: "aside content content content"
     list-style: none;
    text-decoration: none;
 }
+.link-active:hover 
+{
+    color: #0f96df;
+    background-color: lightgrey;
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+}
 .title
 {
   text-decoration: none;
