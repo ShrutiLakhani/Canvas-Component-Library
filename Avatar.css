@@ -13,23 +13,23 @@
   
   .avatar-img {
     border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  
+  .avatar-small {
     height: 2.5rem;
     width: 2.5rem;
   }
   
-  .avatar-small {
-    height: 1.5rem;
-    width: 1.5rem;
-  }
-  
   .avatar-medium {
-    height: 4rem;
-    width: 4rem;
+    height: 4.5rem;
+    width: 4.5rem;
   }
   
   .avatar-large {
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
   }
   
   .avatar-square {

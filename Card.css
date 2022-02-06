@@ -46,6 +46,7 @@
    .card-details h4 {
     margin-top: 0.4rem;
     font-size: 0.6rem;
+    margin-left: 1rem;
     color: var(--tertiary-card-color);
   }
   .card-bottom-section {
@@ -154,6 +155,7 @@
   }
   .card-text-overlay {
     color: var(--text-card-primary-color);
+    font-size: 1.2rem;
   }
   .card-text-overlay {
     position: absolute;

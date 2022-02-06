@@ -24,6 +24,8 @@ body
     --success-color: rgb(69, 136, 69,.8);
     --primary-alert-color:  rgb(66, 66, 221,.8);
     --primary-blue-color:  rgb(66, 66, 221);
+    --primary-red-color: red;
+    --primary-green-color: green;
     --warning-color: rgb(243, 156, 105,.8);
     --component-container-color:  #f0f0f0;
     --component-white-color: white;
@@ -47,12 +49,12 @@ body
 }
 .logo-img
 {
-background-image: url("./images/Paint-Explosion.svg");
+background-image: url("./images/Easel.png");
 background-repeat: no-repeat;
 mix-blend-mode: multiply;
-width: 3.75rem;
-height: 3.75rem;
-background-size: 3.75rem;
+width: 4rem;
+height: 4rem;
+background-size: 4rem;
 background-color: transparent;
 overflow:hidden;
 margin-left: 1rem;
@@ -64,6 +66,11 @@ margin-left: 1rem;
     align-items: center;
     padding: 1rem;
     margin-bottom: 2rem;
+}
+.navbar a{
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-family: cursive;
 }
 li
 {
@@ -95,6 +102,8 @@ grid-template-areas: "aside content content content"
     gap: 1.2rem;
     justify-content: center;
     padding-left: 3rem;
+    position: sticky;
+    top:1rem;
 }
 .main-content
 {
@@ -121,13 +130,14 @@ span .title
     position: relative;
     max-width: 50rem;
 }
-.aside1
+.aside
 {
     /* background-color: white; */
     text-align: center;
     position: sticky;   
+    left:0;
 }
-@media all and (min-width: 800px)
+/* @media all and (min-width: 800px)
 {
     .main{
         flex: 3;
@@ -147,7 +157,7 @@ span .title
     .aside1{
         flex: 1;
     }
-}
+} */
 .header__nav 
 {
     margin-left: auto;
@@ -173,6 +183,7 @@ span .title
 .sub-header
 {
     text-align: left;
+    font-size: 1.8rem;
 }
 .link-active 
 {
@@ -182,6 +193,8 @@ span .title
 .link-active:hover 
 {
     color: #0f96df;
+    margin-left: 20px;
+    transition: 2s; 
     /* background-color: lightgrey;
     border-radius: 4px;
     padding: 1rem 1.2rem; */

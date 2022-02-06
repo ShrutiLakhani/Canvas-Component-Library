@@ -29,6 +29,10 @@ body
     align-items: center;
     padding: 1rem;
 }
+.navbar h1
+{
+    font-size: 3rem;
+}
 li
 {
     list-style: none;
@@ -64,6 +68,8 @@ a{
 h2
 {
     margin-right: 1rem;
+    font-size: 3rem;
+    font-family: cursive;
 }
 .nav-link:first-of-type
 {
@@ -81,14 +87,16 @@ h2
 }
 .hero-img
 {
-    max-width: 300px;
+    max-width: 350px;
     display: block;
-    margin: auto; 
+    margin: auto;
+    margin-left: 50px; 
 } 
 .hero-section-content
 {
-    margin-left: 60px;
-    margin-bottom: 10 0px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 .hero-section-content h3
 {
@@ -110,12 +118,12 @@ h2
 }
 .logo-img
 {
-background-image: url("./images/Paint-Explosion.svg");
+background-image: url("./images/Easel.png");
 background-repeat: no-repeat;
 mix-blend-mode: multiply;
-width: 3.75rem;
-height: 3.75rem;
-background-size: 3.75rem;
+width: 5rem;
+height: 5rem;
+background-size: 5rem;
 background-color: transparent;
 overflow:hidden;
 margin-left: 1rem;

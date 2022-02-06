@@ -78,10 +78,10 @@
   width: .8rem;
   height: .8rem;
   border-radius: 50%;
-  background-color: var(--success-color);
+  background-color: var(--primary-green-color);
   border: 1.5px solid white;
   bottom: 0%;
-  left: 1rem;
+  left: 1.5rem;
 }
 
 .status-style-offline
@@ -98,11 +98,11 @@
 .status-style-dnd
 {
   position: absolute;
-  width: 1rem;
-  height: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
   border-radius: 50%;
-  bottom: 0%;
-  left: 3.5rem;
-  background-color: var(--error-color);
+  bottom: 1%;
+  left: 4rem;
+  background-color: var(--primary-red-color);
   border: 1.5px solid white;
 }
