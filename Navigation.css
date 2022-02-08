@@ -42,7 +42,7 @@ body {
     border-radius: 5px;
   }
   .logo-img {
-    background-image: url("./src/Images/CLogo.svg");
+    background-image: url("./Images/CLogo.svg");
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
     width: 3rem;
