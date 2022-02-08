@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Component</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Input.css">
+</head>
+
+<body>
+    <!--Input Container-->
+    <div class="wrapper">
+        <div class="input-container">
+            <div class="label-input">
+                <label>Username*</label>
+                <input class="input-text" type="text">
+                </input>
+            </div>
+            <!--Input Container with Error Message-->
+            <div class="label-input-error">
+                <label>Password*</label>
+                <input class="input-error" type="text">
+                </input>
+                <div class="error-message">Wrong Password. Try again.
+                </div>
+            </div>
+            <!--Input Container with Success Message-->
+            <div class="label-input-success">
+                <label>Password*</label>
+                <input class="input-success" type="text">
+                </input>
+                <div class="success-message">Correct Password.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/index.js">
+    </script>
+</body>
+
+</html>
