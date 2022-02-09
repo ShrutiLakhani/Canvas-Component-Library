@@ -1,0 +1,89 @@
+  .list-container 
+  {  
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 0.3rem;
+    display: flex;
+    font-size: .9rem;
+    gap: 0rem;
+    justify-content: center;
+    margin: .5rem;
+    padding: 1rem;
+    width: 50rem;
+    height: auto;
+  }
+  .list-title {
+    padding: 1rem;
+    font-weight: 5px;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.5rem;
+  }
+  .list {
+    background-color: white;
+    padding: 1rem 0;
+    margin: 2.5rem;
+    width: 15.6rem;
+    max-width: 90%;
+  }
+  .list-style {
+    background-color: white;
+    padding: 1rem 1rem;
+    padding-left: 0;
+    margin: 2.5rem;
+    width: 20rem;
+    max-width: 100%;
+  }
+  .list li {
+    font-size: 0.8rem;
+    list-style: none;
+    padding: 0.7rem 1.1rem;
+    font-weight: 4px;
+  }
+  .list-style li {
+    font-size: 0.8rem;
+    padding: 0.7rem;
+    font-weight: 4px;
+  }
+  .list-style-circle {
+    list-style-type: circle;
+  }
+  .list-style-sqaure {
+    list-style-type: square;
+  }
+  .list-style-bullet {
+    list-style-type: bullet;
+  }
+  .nested-list {
+    padding-left: 2rem;
+  }
+  ol {
+    list-style: upper-alpha;
+  }
+  .stacked-list {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 1px solid black;
+    list-style: none;
+    text-align: center;
+  }
+  .list-beige {
+    background-color: beige;
+  }
+  .list-aqua {
+    background-color: aqua;
+  }
+  .list-pink {
+    background-color: pink;
+  }
+  .list-purple {
+    background-color: rgb(214, 126, 214);
+  }
+  .list-stack-list {
+    padding: 1rem 0;
+    width: 15.6rem;
+    max-width: 90%;
+  }
+  .inline-item {
+    display: inline;
+  }
+  
