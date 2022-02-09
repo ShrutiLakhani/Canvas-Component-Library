@@ -72,12 +72,12 @@ margin-left: 1rem;
     margin-right: 1rem;
     font-family: cursive;
 }
-li
+/* li
 {
     list-style: none;
     margin-right: 50rem;
     white-space: nowrap;
-}
+} */
 a{
     text-decoration: none;
     color:  var(--secondary-color);
@@ -211,7 +211,8 @@ span .title
 {
   text-decoration: none;
 }
-li
+
+.sidebar-li
 {
   list-style: none;
   padding: 1rem;
