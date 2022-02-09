@@ -1,7 +1,7 @@
   .list-container 
   {  
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: var(--component-container-color);
     border-radius: 0.3rem;
     display: flex;
     font-size: .9rem;
@@ -19,14 +19,14 @@
     margin-bottom: 0.5rem;
   }
   .list {
-    background-color: white;
+    background-color: var(--component-white-color);
     padding: 1rem 0;
     margin: 2.5rem;
     width: 15.6rem;
     max-width: 90%;
   }
   .list-style {
-    background-color: white;
+    background-color: var(--component-white-color);
     padding: 1rem 1rem;
     padding-left: 0;
     margin: 2.5rem;
@@ -67,16 +67,16 @@
     text-align: center;
   }
   .list-beige {
-    background-color: beige;
+    background-color: var(--success-color);
   }
   .list-aqua {
-    background-color: aqua;
+    background-color: var(--warning-color);
   }
   .list-pink {
-    background-color: pink;
+    background-color: var(--tertiary-color);
   }
   .list-purple {
-    background-color: rgb(214, 126, 214);
+    background-color: var(--hover-card-color);
   }
   .list-stack-list {
     padding: 1rem 0;
