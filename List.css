@@ -14,7 +14,6 @@
   }
   .list-title {
     padding: 1rem;
-    font-weight: 5px;
     border-bottom: 1px solid black;
     margin-bottom: 0.5rem;
   }
@@ -22,27 +21,24 @@
     background-color: var(--component-white-color);
     padding: 1rem 0;
     margin: 2.5rem;
-    width: 15.6rem;
-    max-width: 90%;
+    width: 90%;
+    max-width: 15rem;
   }
   .list-style {
     background-color: var(--component-white-color);
-    padding: 1rem 1rem;
-    padding-left: 0;
-    margin: 2.5rem;
-    width: 20rem;
-    max-width: 100%;
+    padding: 1rem 2rem;
+    margin: 1.5rem;
+    width: 100%;
+    max-width: 25rem;
   }
   .list li {
-    font-size: 0.8rem;
+    font-size: .8rem;
     list-style: none;
     padding: 0.7rem 1.1rem;
-    font-weight: 4px;
   }
   .list-style li {
-    font-size: 0.8rem;
+    font-size: .8rem;
     padding: 0.7rem;
-    font-weight: 4px;
   }
   .list-style-circle {
     list-style-type: circle;
@@ -54,6 +50,10 @@
     list-style-type: bullet;
   }
   .nested-list {
+    padding-left: 1rem;
+  }
+  .nested-list-style-ul .nested-list-style
+  {
     padding-left: 2rem;
   }
   ol {
@@ -79,9 +79,9 @@
     background-color: var(--hover-card-color);
   }
   .list-stack-list {
-    padding: 1rem 0;
-    width: 15.6rem;
-    max-width: 90%;
+    padding: 1rem 5rem;
+    width: 100%;
+    max-width: 20rem;
   }
   .inline-item {
     display: inline;
