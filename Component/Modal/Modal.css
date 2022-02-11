@@ -1,0 +1,70 @@
+.modal-container > a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--component-black-color);
+    color: var(--component-white-color);
+    padding: 1rem;
+    border-radius: 3px;
+    color: var(--component-container-color);
+  }
+  .modal-container {
+    align-items: center;
+    background-color: var(--component-container-color);
+    color: var(--component-black-color);
+    border-radius: 0.3rem;
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+    width: 50rem;
+    border: 1px solid black;
+  }
+  .modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .modal-content {
+    position: relative;
+    background-color: var(--component-white-color);
+    width: 90%;
+    max-width: 24rem;
+    padding: 2rem 1rem;
+    border-radius: 4px;
+  }
+  a {
+    font-weight: 200;
+  }
+  .modal-close {
+    position: absolute;
+    top: 0%;
+    right: 15px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: none;
+  }
+  input {
+    padding: 0.6rem 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    padding: 0.6rem 1rem;
+    font-weight: 2px;
+    background-color: var(--secondary-color);
+    color: var(--component-white-color);
+    margin-left: 7.5rem;
+  }
