@@ -24,6 +24,7 @@ body
     --success-color: rgb(69, 136, 69,.8);
     --primary-alert-color:  rgb(66, 66, 221,.8);
     --primary-blue-color:  rgb(66, 66, 221);
+    --primary-purple-color: purple;
     --primary-red-color: red;
     --primary-green-color: green;
     --warning-color: rgb(243, 156, 105,.8);
@@ -78,7 +79,7 @@ margin-left: 1rem;
     margin-right: 50rem;
     white-space: nowrap;
 } */
-a{
+.link-active{
     text-decoration: none;
     color:  var(--secondary-color);
     /* background-color: var(--main-bg-color); */
