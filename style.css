@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
 *
 {
-    margin: 0;
+    margin: 0rem;
     padding: 0;
     box-sizing: border-box;
 }
@@ -22,6 +22,10 @@ body
     overflow: hidden;
     height: 100vh;
 }
+.container
+{
+    margin: 0 1rem;
+}
 .navbar
 {
     display: flex;
@@ -31,12 +35,12 @@ body
 }
 .navbar h1
 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
-li
+.navbar li
 {
     list-style: none;
-    margin-right: 50rem;
+    /* margin-right: 50rem; */
 }
 .Primary-Link
 {
@@ -71,19 +75,19 @@ h2
     font-size: 3rem;
     font-family: cursive;
 }
-.nav-link:first-of-type
+/* .nav-link:first-of-type
 {
     color: var(--secondary-color);
     transition: transform .3s;
     cursor: pointer;
     transform: translateY(5px);
-}
+} */
 .hero-section
 {
     display: grid;
     grid-template-columns: repeat(2, 800px 1fr);
     align-items: center;
-    margin-top: 30px;
+    margin-top: 2px;
 }
 .hero-img
 {
@@ -118,12 +122,12 @@ h2
 }
 .logo-img
 {
-background-image: url("./images/Easel.png");
+background-image: url("./Hero_Images/Easel.png");
 background-repeat: no-repeat;
 mix-blend-mode: multiply;
-width: 5rem;
-height: 5rem;
-background-size: 5rem;
+width: 10rem;
+height: 10rem;
+background-size: 10rem;
 background-color: transparent;
 overflow:hidden;
 margin-left: 1rem;
