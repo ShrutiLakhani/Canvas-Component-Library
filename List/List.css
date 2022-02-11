@@ -26,14 +26,14 @@
     max-width: 15rem;
   }
   .list {
-    background-color: var(--component-white-color);
+    background-color: yellow;
     padding: 1rem 0;
     margin: 2.5rem;
     width: 90%;
     max-width: 15rem;
   }
   .list-style {
-    background-color: var(--component-white-color);
+    background-color: var(--success-color);
     padding: 1rem 2rem;
     margin: 1.5rem;
     width: 100%;
