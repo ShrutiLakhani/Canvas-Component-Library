@@ -27,7 +27,7 @@
   }
   .image-box {
     height: 12.5rem;
-    width: 10rem;
+    width: 8rem;
   }
   .image-box img {
     height: 100%;
@@ -71,7 +71,7 @@
     padding: 0.8rem 0.8rem;
   }
   .card2-container {
-    width: 19rem;
+    width: 15rem;
     text-align: left;
     background: var(--card-BG);
     padding-bottom: 0.5rem;
@@ -115,8 +115,8 @@
   
   /* card 2 image */
   .card2-container img {
-    width: 19rem;
-    height: 20rem;
+    width: 15rem;
+    height: 18rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
   }
