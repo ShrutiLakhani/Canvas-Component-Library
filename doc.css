@@ -77,7 +77,6 @@ margin-left: 1rem;
 .link-active{
     text-decoration: none;
     color:  var(--secondary-color);
-    /* background-color: var(--main-bg-color); */
 }
 .doc-section
 {
