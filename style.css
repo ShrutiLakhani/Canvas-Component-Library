@@ -40,7 +40,6 @@ body
 .navbar li
 {
     list-style: none;
-    /* margin-right: 50rem; */
 }
 .Primary-Link
 {
@@ -75,13 +74,6 @@ h2
     font-size: 3rem;
     font-family: cursive;
 }
-/* .nav-link:first-of-type
-{
-    color: var(--secondary-color);
-    transition: transform .3s;
-    cursor: pointer;
-    transform: translateY(5px);
-} */
 .hero-section
 {
     display: grid;
