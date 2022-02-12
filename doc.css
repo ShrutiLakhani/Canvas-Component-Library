@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
-*
 body 
 {
     font-family: "Roboto", sans-serif;
@@ -50,6 +49,12 @@ margin-left: 1rem;
 .link-active{
     text-decoration: none;
     color:  var(--secondary-color);
+}
+.link-active:hover 
+{
+    color: #0f96df;
+    margin-left: 1.25rem;
+    transition: .2s; 
 }
 .doc-section
 {
@@ -111,17 +116,6 @@ span .title
 {
     text-align: left;
     font-size: 1.8rem;
-}
-.link-active 
-{
-    list-style: none;
-   text-decoration: none;
-}
-.link-active:hover 
-{
-    color: #0f96df;
-    margin-left: 1.25rem;
-    transition: .2s; 
 }
 .content-style
 {
