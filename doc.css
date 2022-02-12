@@ -12,33 +12,6 @@ body
     padding: 0;
     box-sizing: border-box;
 }
-:root 
-{   
-    --main-bg-color: #FBFFFE; 
-    --primary-color: #E8EEF2;
-    --secondary-color: #0D1B2A;
-    --divider-bg-color: #dadadaf3;
-    --tertiary-color: rgb(117, 117, 117, 0.8);
-    --error-color: rgb(243, 53, 53,.8);
-    --success-color: rgb(69, 136, 69,.8);
-    --primary-alert-color:  rgb(66, 66, 221,.8);
-    --primary-blue-color:  rgb(66, 66, 221);
-    --primary-purple-color: purple;
-    --primary-red-color: red;
-    --primary-green-color: green;
-    --warning-color: rgb(243, 156, 105,.8);
-    --component-container-color:  #f0f0f0;
-    --component-white-color: white;
-    --component-black-color: black;
-    --card-BG: rgb(255, 255, 255);
-    --text-card-primary-color: rgb(238, 27, 36);
-    --secondary-card-color: rgb(117, 117, 117);
-    --tertiary-card-color: rgb(117, 117, 117, 0.8);
-    --hover-card-color: rgba(238, 27, 36, 0.2);
-    --bg-card-button-color1: rgb(206, 206, 182);
-    --bg-card-button-color2: rgb(66, 27, 27);
-
-}
 .wrapper
 {
     display: flex;

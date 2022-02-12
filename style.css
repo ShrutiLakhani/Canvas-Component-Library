@@ -83,16 +83,16 @@ h2
 }
 .hero-img
 {
-    max-width: 350px;
+    max-width: 21.9rem;
     display: block;
     margin: auto;
-    margin-left: 50px; 
+    margin-left: 3.125rem; 
 } 
 .hero-section-content
 {
-    margin-left: 250px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin-left: 15rem;
+    margin-top: 1.25rem;
+    margin-bottom: 6.25rem;
 }
 .hero-section-content h3
 {
@@ -109,7 +109,7 @@ h2
 {
     margin-left: 0px;
     margin-top: -10px;
-    width: 130px;
+    width: 8.125rem;
     background-color: (--divider-bg-color);
 }
 .logo-img
