@@ -37,5 +37,6 @@
     --hover-card-color: rgba(238, 27, 36, 0.2);
     --bg-card-button-color1: rgb(206, 206, 182);
     --bg-card-button-color2: rgb(66, 27, 27);
-
+    --drop-hover-color: #ddd;    
+    --main-background-color: #fff;
 }
