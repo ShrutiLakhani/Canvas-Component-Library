@@ -26,6 +26,7 @@
     background-color: var(--component-white-color);
     color: var(--component-black-color);
     transform: translateY(5px);
+    border: 1px solid var(--component-black-color);
   }
   
   .primary-button-outline {
