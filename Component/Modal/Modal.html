@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document|Modal</title>
+    <link rel="stylesheet" href="/doc.css">
+    <link rel="stylesheet" href="/Component.css">
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-img"></div>
+            <h2><a href="/index.html">Canvas</a></h2>
+    </div>
+    </div>
+    <div class="doc-section">
+        <aside class="aside-style">
+
+            <div class="side-bar">
+                <ul class="top-nav">
+                    <li class="sidebar-li">
+                        <span class="title"><strong>Get Started</strong></span>
+                    </li>
+                    <div class="divider-sidebar"></div>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Introduction/getstarted.html" class="link-active">
+                            <span class="title">Introduction</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Color/Color.html" class="link-active">
+                            <span class="title">Colors</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Typography/Typography.html" class="link-active">
+                            <span class="title">Typography</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <!-- <a target="_self" href="#" class="link-active"> -->
+                        <span class="title"><strong>Components</strong></span>
+                        <!-- </a> -->
+                    </li>
+                </ul>
+                <div class="divider-sidebar"></div>
+                <ul class="bottom-nav">
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Alert/Alert.html" class="link-active">
+                            <span class="title">Alert</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Avatar/Avatar.html" class="link-active">
+                            <span class="title">Avatar</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Badge/Badge.html" class="link-active">
+                            <span class="title">Badge</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Button/Button.html" class="link-active">
+                            <span class="title">Button</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Card/Card.html" class="link-active">
+                            <span class="title">Card</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Grid/Grid.html" class="link-active">
+                            <span class="title">Grid</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Image/Image.html" class="link-active">
+                            <span class="title">Image</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Input/Input.html" class="link-active">
+                            <span class="title">Input</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/List/List.html" class="link-active">
+                            <span class="title">List</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Modal/Modal.html" class="link-active">
+                            <span class="title">Modal</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Rating/Rating.html" class="link-active">
+                            <span class="title">Rating</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-li">
+                        <a target="_self" href="/Component/Toast/Toast.html" class="link-active">
+                            <span class="title">Toast</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="main-content">
+            <article class="main">
+                <h4 class="sub-header">Modal</h4>
+                <p class="content-style">
+                    Modals are positioned over everything else in the document and remove scroll from the page. It gets
+                    closed only with close button on modal pop-up.
+                </p>
+                <div class="divider"></div>
+                <h4 class="sub-header">Example of Modal</h4>
+                <p class="content-style">
+                    You need to have wrapper div modal-interstitial class. Inside that, you can wrap content inside
+                    div.modal-content that you need to show in pop-up.
+                </p>
+                <div class="divider"></div>
+                <div class="wrapper">
+                    <div class="modal-container">
+                        <a href="#modalbox" class="modal-style">CLICK TO OPEN</a>
+                        <div>
+                            <div id="modalbox" class="modal">
+                                <div class="modal-content">
+                                    <h3>Be the first to shop the new collection</h3>
+                                    <p>Sign up now for 20% off on your first purchase</p>
+                                    <input type="text" placeholder="Email Address" />
+                                    <button class="modal-btn">SUBMIT</button>
+                                    <a href="#" class="modal-close">&times;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="example-code border-style">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28235%2C220%2C222%2C1%29&t=vscode&wt=none&l=htmlmixed&width=1029&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=23px&ph=15px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523modalbox%2522%2520class%253D%2522modal-style%2522%253ECLICK%2520TO%2520OPEN%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cdiv%2520id%253D%2522modalbox%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 1029px; height: 252px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+
+</body>
+
+</html>

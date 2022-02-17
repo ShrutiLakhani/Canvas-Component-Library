@@ -1,0 +1,50 @@
+  .input-container 
+  {
+    align-items: center;
+    background-color: var(--component-container-color);
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    justify-content: center;
+    padding: 2rem;
+    width: 50rem;
+  }
+  .input-text 
+  {
+    padding: 0.5rem 3rem;
+  }
+  
+  .input-error 
+  {
+    padding: 0.5rem 3rem;
+    border: 1.5px solid var(--error-color);
+    color: var(--error-color);
+  }
+  .label-input-error 
+  {
+    padding-left: .2rem; 
+    color: var(--error-color);
+  }
+  .error-message 
+  {
+    padding: 0.5rem 9rem;
+    color: var(--error-color);
+  }
+  
+  .input-success 
+  {
+    padding: 0.5rem 3rem;
+    border: 1.5px solid var(--success-color);
+    color: var(--success-color);
+  }
+  .label-input-success 
+  {
+    padding-left: .2rem;   
+    color: var(--success-color);
+  }
+  .success-message 
+  {
+    padding: 0.5rem 9rem;
+    color: var(--success-color);
+  }

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas|Badge</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="/doc.css">
+    <link rel="stylesheet" href="/Component.css">
+    <script src="https://use.fontawesome.com/fcb99f5e0a.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-img"></div>
+            <h2><a href="/index.html">Canvas</a></h2>
+    </div>
+    </div>
+    <div class="doc-section">
+      <aside class="aside-style">
+
+        <div class="side-bar">
+          <ul class="top-nav">
+            <li class="sidebar-li">
+              <span class="title"><strong>Get Started</strong></span>
+            </li>
+            <div class="divider-sidebar"></div>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Introduction/getstarted.html" class="link-active">
+                <span class="title">Introduction</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Color/Color.html" class="link-active">
+                <span class="title">Colors</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Typography/Typography.html" class="link-active">
+                <span class="title">Typography</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <span class="title"><strong>Components</strong></span>
+            </li>
+          </ul>
+          <div class="divider-sidebar"></div>
+          <ul class="bottom-nav">
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Alert/Alert.html" class="link-active">
+                <span class="title">Alert</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Avatar/Avatar.html" class="link-active">
+                <span class="title">Avatar</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Badge/Badge.html" class="link-active">
+                <span class="title">Badge</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Button/Button.html" class="link-active">
+                <span class="title">Button</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Card/Card.html" class="link-active">
+                <span class="title">Card</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Grid/Grid.html" class="link-active">
+                <span class="title">Grid</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Image/Image.html" class="link-active">
+                <span class="title">Image</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Input/Input.html" class="link-active">
+                <span class="title">Input</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/List/List.html" class="link-active">
+                <span class="title">List</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Modal/Modal.html" class="link-active">
+                <span class="title">Modal</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Rating/Rating.html" class="link-active">
+                <span class="title">Rating</span>
+              </a>
+            </li>
+            <li class="sidebar-li">
+              <a target="_self" href="/Component/Toast/Toast.html" class="link-active">
+                <span class="title">Toast</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+        <div class="main-content">
+            <article class="main">
+                <h4 class="sub-header">Badge</h4>
+                <p class="content-style">
+                    Badges are small circles, positioned either at top-right or bottom-right of the parent component.
+                    Badge can be used to display numbers, online / offline status, depending on where they are used.
+                </p>
+                <div class="divider"></div>
+                <h4 class="sub-header">Profile Badge</h4>
+                <p class="content-style">
+                    Profile Badge is used to show the current status of a user.
+                </p>
+                <p class="content-style">
+                    It can be used with 3 variants : status-style-online | status-style-offline | status-style-dnd
+                </p>
+                <div class="avatar-container border-style">
+                    <div class="icon">
+                        <img src="https://image.shutterstock.com/image-vector/african-bearded-man-wearing-tshirt-600w-1476685571.jpg"
+                            alt="Image" class="avatar-img avatar-small"></img>
+                        <span class="status-style-online"></span>
+                    </div>
+                    <div class="icon">
+                        <img src="http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png"
+                            alt="Image" class="avatar-img avatar-medium"></img>
+                        <span class="status-style-offline"></span>
+                    </div>
+                    <div class="icon">
+                        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Image"
+                            class="avatar-img avatar-large"></img>
+                        <span class="status-style-dnd"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="example-code border-style">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28240%2C240%2C240%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=24px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522%2523%2522%2520alt%253D%2522Image%2522%2520class%253D%2522avatar-img%2520avatar-small%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-style-online%2522%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522%2523%2522%2520alt%253D%2522Image%2522%2520class%253D%2522avatar-img%2520avatar-medium%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-style-offline%2522%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522%2523%2522%2520alt%253D%2522Image%2522%2520class%253D%2522avatar-img%2520avatar-large%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-style-dnd%2522%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                        style="width: 830px; height: 329px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="divider"></div>
+                <h4 class="sub-header">Badge On Icon</h4>
+                <p class="content-style">
+                    Number Badges are mostly used to show the no. of items present in the parent component.
+                </p>
+                <div class="avatar-container border-style">
+                    <div class="icon">
+                        <span class="material-icons">email</span>
+                        <span class="style-badge style-badge1">4</span>
+                    </div>
+                    <div class="icon">
+                        <span class="material-icons">notifications</span>
+                        <span class="style-badge style-badge2">15</span>
+                    </div>
+                    <div class="icon text">
+                        <span>Text with a badge</span>
+                        <span class="style-badge style-badge3">5</span>
+                    </div>
+                    <div class="icon">
+                        <button class="btn-style">Action</button>
+                        <span class="style-badge style-badge4">8</span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="example-code border-style">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28240%2C240%2C240%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=24px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522%2523%2522%2520alt%253D%2522Image%2522%2520class%253D%2522avatar-img%2520avatar-small%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-style-online%2522%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522%2523%2522%2520alt%253D%2522Image%2522%2520class%253D%2522avatar-img%2520avatar-medium%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-style-offline%2522%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522%2523%2522%2520alt%253D%2522Image%2522%2520class%253D%2522avatar-img%2520avatar-large%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-style-dnd%2522%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                        style="width: 999px; height: 329px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>

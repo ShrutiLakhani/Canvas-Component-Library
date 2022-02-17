@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
+body 
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    background-color: var(--main-background-color);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.logo-img
+{
+background-image: url("./Hero_Images/Easel.png");
+background-repeat: no-repeat;
+mix-blend-mode: multiply;
+width: 4rem;
+height: 4rem;
+background-size: 4rem;
+background-color: transparent;
+overflow:hidden;
+margin-left: 1rem;
+}
+.navbar
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.navbar a{
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-family: cursive;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.link-active{
+    text-decoration: none;
+    color:  var(--secondary-color);
+}
+.link-active:hover 
+{
+    color: #0f96df;
+    margin-left: 1.25rem;
+    transition: .2s; 
+}
+.doc-section
+{
+display: grid;
+grid-template-columns: 30% 1fr 1fr 10%;
+grid-template-rows: 1fr;
+grid-template-areas: "aside content content content"
+                     "aside content content content";                    
+}
+.aside
+{
+    grid-area: aside;
+    text-align: center;
+    position: sticky;   
+    left:0;
+}
+.side-bar
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    padding-left: 3rem;
+    position: sticky;
+    top:1rem;
+}
+.sidebar-li
+{
+  list-style: none;
+  padding: 1rem;
+}
+.main-content
+{
+    grid-area: content;
+    text-align: left;
+    position: relative;
+    max-width: 50rem;
+}
+span .title
+{
+    text-decoration: none;
+}
+.main
+{
+    text-align: left;
+    position: relative;
+    max-width: 50rem;
+}
+.header__nav 
+{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    gap: 3rem;  
+}
+.sub-header
+{
+    text-align: left;
+    font-size: 1.8rem;
+}
+.content-style
+{
+  padding-bottom: .5rem;
+  margin: .5rem;
+}
+.divider
+{
+  margin-bottom: 2rem;
+  height: 1px;
+  background-color: var(--divider-bg-color);
+}
+.divider-sidebar
+{
+  margin-bottom: .2rem;
+  height: .2px;
+  background-color: var(--divider-bg-color);
+  width: 10rem;
+}
+.example-code
+{
+    height: max-content;
+    margin-bottom: 3rem;
+    padding-right: 10px;
+    width: 50rem;
+    border-radius: 0.3rem;
+    background-color: var(--component-white-color);
+    text-align: center;
+    overflow-x: scroll;
+}
+.border-style
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--component-black-color);
+}

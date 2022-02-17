@@ -1,0 +1,108 @@
+.icon
+{
+  position: relative;
+}
+.material-icons
+{
+ font-size: 7rem;
+}
+.style-badge
+{
+  display: flex;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--component-white-color);
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.style-badge1 
+{
+  top: 0%;
+  left: 5rem;
+  background-color: var(--primary-blue-color);
+}
+.style-badge2
+{
+  top: 5%;
+  left: 4rem;
+  background-color: var(--primary-red-color);
+}
+
+.style-badge3
+{
+  top: 10%;
+  left: 9.5rem;
+  background-color: var(--primary-blue-color);
+}
+
+.style-badge4
+{
+  top: 1rem;
+  left: 5.5rem;
+  background-color: var(--primary-red-color);
+}
+
+.btn-style
+{
+  padding: 0.5rem 0.8rem;
+  border-radius: 10%;
+  margin: 2rem;
+  background-color: var(--primary-blue-color);
+  color: var(--component-white-color);
+  font-weight: bold;
+}
+
+.btn-style1
+{
+  padding: 0.5rem 0.8rem;
+  border-radius: 10%;
+  margin: 2rem;
+  background-color: var(--component-white-color);
+  color: var(--component-black-color);
+  font-weight: bold;
+}
+
+.text
+{
+  padding: 2rem;
+}
+
+.status-style-online
+{
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border-radius: 50%;
+  background-color: var(--primary-green-color);
+  border: 1.5px solid white;
+  bottom: 0%;
+  left: 1.5rem;
+}
+
+.status-style-offline
+{
+  position: absolute;
+  width: .9rem;
+  height: .9rem;
+  border-radius: 50%;
+  bottom: 5%;
+  left: 3rem;
+  background-color: rgb(184, 179, 179);
+  border: 1.5px solid white;
+}
+.status-style-dnd
+{
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  bottom: 1%;
+  left: 4rem;
+  background-color: var(--primary-red-color);
+  border: 1.5px solid white;
+}
