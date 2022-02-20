@@ -62,7 +62,7 @@
     margin-bottom: 1rem;
     cursor: pointer;
   }
-  modal.btn {
+  .modal-container .modal-content .modal.btn {
     padding: 0.6rem 1rem;
     font-weight: 2px;
     background-color: var(--secondary-color);
